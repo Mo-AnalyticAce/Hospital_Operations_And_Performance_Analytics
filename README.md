@@ -100,6 +100,13 @@ Created Patient Age Groups: Grouped raw patient ages into defined ranges (e.g., 
 Extracted Day of Week: Formatted the appointment date column to extract the literal day of the week (e.g., Monday, Tuesday) to track operational trends and peak hospital days.
 
 ##Data Modeling & DAX Measures
+A star-schema relationship model was implemented in Power BI.
+Relationships
+Patients → Appointments
+Doctors → Appointments
+Treatments → Billing	Patients → Billing
+This model enabled efficient filtering and cross-table analysis.
+
 Calculated Appointment Volumetrics: Formulated distinct counting filters on the core dataset using the appointment status column to dynamically isolate and aggregate individual running totals for completed, cancelled, and no-show bookings.
 
 Calculated Performance Rates: Combined the individual appointment status metrics into logical division operations against the grand total of scheduled bookings to continuously recalculate the real-time completion, cancellation, and no-show percentages.
