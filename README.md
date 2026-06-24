@@ -111,5 +111,35 @@ Calculated Appointment Volumetrics: Formulated distinct counting filters on the 
 
 Calculated Performance Rates: Combined the individual appointment status metrics into logical division operations against the grand total of scheduled bookings to continuously recalculate the real-time completion, cancellation, and no-show percentages.
 
+##Key Insights
+
+###Appointment Problems
+Low Success Rate: Only about 23 out of every 100 appointments are actually finished.
+
+High Missed Slots: Over half of the appointments are either cancelled (25.5%) or patients just do not show up (26%).
+
+Exact Numbers: Out of 200 total appointments, 52 were no-shows, 51 were cancelled, 51 stayed scheduled, and only 46 were completed.
+
+###Patient Information
+More Men: Men make up most of the visits at 76%, while women make up only 24%.
+
+Top Age Group: Young adults aged 19–35 visit the hospital the most. Older people aged 66 and above visit the least.
+
+###Busiest Days
+Peak Days: Tuesday is the busiest day of the week for the clinic, followed closely by Wednesday.
+
+Slow Days: Appointment numbers drop quickly and hit the lowest point on Thursday.
+
+ ###Treatments and Money
+Top Treatment: Chemotherapy is the most common treatment and brings in the most money.
+
+Other Major Treatments: MRI and X-Ray are the next biggest treatments for both use and cost.
+
+How People Pay: Most patients prefer to pay with a Credit Card, followed by Insurance and Cash.
+
+ ###Doctor Breakdown
+Most Busy Doctors: Doctors D001 and D003 finished the highest number of appointments (6 each).
+
+Highest Cancellations: Doctor D002 had the most cancelled appointments (8), followed by Doctor D001 (7).
 ##
 Patients were grouped into meaningful categories:
